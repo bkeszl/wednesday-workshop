@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgba(60,184,120);
+  display: flex;
+  justify-content: center;
+}
+
+p, ol {
+  color: #2F4F4F
+}
+
+main {
+  padding: 1rem;
+  background-color: white;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 1rem;
+}
+
+h1 {
+  align-self: center;
+}
+
+button {
+  margin-top: 2rem;
+  padding: 0.5rem 0.8rem;
+  align-self: center;
+  background-color: rgba(60,184,120);
+  color: white;
+  font-size: 1.3rem;
+  border: 0px solid;
+  border-radius: 0.3rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+button:hover {
+  background-color: rgba(60,60, 59)
